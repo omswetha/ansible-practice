@@ -1,0 +1,6 @@
+- name: demo on facts
+  hosts: localhost
+  task:
+    - name: print arch
+      ansible.builtin.debug:
+        msg: "{{ ansible_architecture }}"
