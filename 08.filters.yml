@@ -1,5 +1,5 @@
 - name: demo on filters
-  hosts: all
+  hosts: localhost
   tasks:
     - name: print the uptime
       ansible.builtin.shell: uptime
